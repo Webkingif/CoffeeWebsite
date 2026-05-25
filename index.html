@@ -7,9 +7,13 @@
     <title>Document</title>
 
 
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preload" href="fontawesome/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <noscript>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    </noscript>
 </head>
 
 <body>
